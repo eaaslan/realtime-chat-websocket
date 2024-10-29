@@ -1,0 +1,41 @@
+/* Genel sayfa düzeni */
+body {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+
+
+}
+
+#username-page {
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+#userNameForm {
+    display: flex;
+    align-items: center; /* Dikey ortalamak için */
+    gap: 10px; /* İki öğe arasına boşluk koyar */
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#userNameForm {
+    padding: 20px;
+}
+
+#username-page.disable, #chat-page.disable {
+    display: none !important;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    border-style: solid;
+}
